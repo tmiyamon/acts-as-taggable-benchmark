@@ -27,6 +27,11 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    acts-as-taggable-array-on (0.3.0)
+      activerecord (>= 4, < 5)
+      activesupport (>= 4, < 5)
+    acts-as-taggable-on (3.4.2)
+      activerecord (>= 3.2, < 5)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
     coffee-rails (4.0.1)
@@ -108,6 +113,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts-as-taggable-array-on
+  acts-as-taggable-on
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
